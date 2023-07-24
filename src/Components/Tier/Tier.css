@@ -1,0 +1,508 @@
+.rectangle-div1 {
+  position: relative;
+  background: linear-gradient(112.72deg, #2e335a, #1c1b33);
+  width: 100%;
+  height: 240vh;
+}
+.have-any-troubles {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}
+.our-hands-are {
+  margin: 0;
+}
+.have-any-troubles-container {
+  position: relative;
+  font-size: 65px;
+  letter-spacing: 0.02em;
+  font-family: betatron;
+  text-align: center;
+  -webkit-text-stroke: 1px #fff;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.our-hands-are {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  padding-bottom: 1.5rem;
+}
+.we-are-a-container {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 0.02rem;
+  font-family: orbitron;
+  text-align: center;
+  line-height: 32px;
+}
+.parent-tier::after {
+  content: "";
+  position: absolute;
+  width: 1.5px;
+  height: 160vh;
+  background: linear-gradient(
+    97.27deg,
+    #fb37ff,
+    #9b6fee 30.5%,
+    #7b7fea 65.36%,
+    rgba(65, 48, 244, 0.03)
+  );
+  top: 50px;
+  left: 800px;
+}
+.tier-1 {
+  position: relative;
+  font-size: 55px;
+  top: 150px;
+  width: 150%;
+  letter-spacing: 0.02em;
+  font-family: orbitron;
+  color: #fff;
+}
+.tier-2 {
+  position: relative;
+  top: 380px;
+  font-size: 55px;
+  letter-spacing: 0.02em;
+  font-family: orbitron;
+  color: #fff;
+}
+.tier-3 {
+  position: relative;
+  font-size: 55px;
+  letter-spacing: 0.02em;
+  font-family: orbitron;
+  color: #fff;
+  top: 600px;
+}
+.tier-4 {
+  position: relative;
+  font-size: 55px;
+  letter-spacing: 0.02em;
+  font-family: orbitron;
+  color: #ffffff;
+  top: 800px;
+}
+.about {
+  font-family: orbitron;
+}
+
+.heading1 {
+  color: white;
+  position: relative;
+  font-size: 20px;
+  width: 150%;
+}
+
+.paragraph1 {
+  position: relative;
+  color: white;
+  width: 280px;
+  line-height: 1.5rem;
+  font-size: 15px;
+  margin-left: 930px;
+  top: 170px;
+}
+.heading2 {
+  color: white;
+  width: 200%;
+  position: relative;
+  font-size: 20px;
+}
+.paragraph2 {
+  position: relative;
+  color: white;
+  width: 280px;
+  line-height: 1.5rem;
+  font-size: 15px;
+  margin-left: 928px;
+  top: 480px;
+}
+
+.heading3 {
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-size: 20px;
+  width: 200%;
+}
+.paragraph3 {
+  position: relative;
+  color: rgb(255, 255, 255);
+  width: 280px;
+  line-height: 1.5rem;
+  font-size: 15px;
+  margin-left: 760px;
+}
+.heading4 {
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-size: 20px;
+}
+.paragraph4 {
+  position: relative;
+  color: rgb(255, 255, 255);
+  width: 280px;
+  line-height: 1.5rem;
+  font-size: 15px;
+  margin-left: 760px;
+}
+.right-container {
+  left: 60%;
+  top: -60px;
+}
+.left-container {
+  left: 25%;
+}
+
+.vector-tier1 {
+  position: relative;
+  height: 200px;
+  top: 100px;
+  left: 900px;
+}
+.vector-tier2 {
+  position: relative;
+  height: 200px;
+  top: 400px;
+  left: 900px;
+}
+.vector-tier3 {
+  position: relative;
+  height: 200px;
+  top: 0px;
+  left: 900px;
+  top: 700px;
+}
+.vector-tier4 {
+  position: relative;
+  height: 200px;
+  top: 1000px;
+  left: 900px;
+}
+@media screen and (max-width: 872px) {
+  .have-any-troubles-container {
+    font-size: 30px;
+  }
+  .we-are-a-container {
+    font-size: 13px;
+  }
+  .piechart {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 710px) {
+  .have-any-troubles-container {
+    font-size: 27px;
+  }
+  .we-are-a-container {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 614px) {
+  .have-any-troubles-container {
+    font-size: 25px;
+  }
+  .we-are-a-container {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px) and (orientation: portrait) {
+  .have-any-troubles-container {
+    font-size: 23px;
+  }
+  .we-are-a-container {
+    font-size: 13px;
+  }
+  .rectangle-div1 {
+    height: 240vh;
+  }
+  .tier-1 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 20px;
+  }
+  .num0 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier1 {
+    position: relative;
+    height: 180px;
+    top: 140px;
+    left: 30px;
+  }
+  .heading1 {
+    position: relative;
+    font-size: 17px;
+    width: 200px;
+    margin-left: -870px;
+    padding-top: 40px;
+  }
+  .paragraph1 {
+    width: 280px;
+    margin-left: 55px;
+    top: 200px;
+    font-size: 14px;
+  }
+  .tier-2 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 170px;
+  }
+  .num1 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier2 {
+    position: relative;
+    height: 180px;
+    top: 420px;
+    left: 30px;
+  }
+  .heading2 {
+    position: relative;
+    width: 300px;
+    font-size: 16px;
+    margin-left: -860px;
+    padding-top: 10px;
+  }
+
+  .paragraph2 {
+    width: 280px;
+    margin-left: 55px;
+    top: 480px;
+    font-size: 14px;
+  }
+  .tier-3 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 300px;
+  }
+  .num2 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier3 {
+    position: relative;
+    height: 180px;
+    top: 720px;
+    left: 30px;
+  }
+  .heading3 {
+    position: relative;
+    width: 300px;
+    font-size: 16px;
+    padding-top: 15px;
+    margin-left: -860px;
+  }
+
+  .paragraph3 {
+    width: 280px;
+    margin-left: 55px;
+    font-size: 14px;
+  }
+
+  .tier-4 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 430px;
+  }
+  .num3 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier4 {
+    position: relative;
+    height: 180px;
+    top: 1040px;
+    left: 30px;
+  }
+  .heading4 {
+    position: relative;
+    width: 300px;
+    font-size: 16px;
+    margin-top: -290px;
+    margin-left: -860px;
+  }
+
+  .paragraph4 {
+    width: 280px;
+    padding-top: 50px;
+    margin-left: 55px;
+    font-size: 14px;
+  }
+
+  .parent-tier::after {
+    left: 50%;
+    margin-left: 10px;
+  }
+  .rectangle-div1 {
+    height: 220vh;
+  }
+}
+@media screen and (max-width: 500px) and (orientation: landscape) {
+  .have-any-troubles-container {
+    font-size: 23px;
+  }
+  .we-are-a-container {
+    font-size: 13px;
+  }
+  .rectangle-div1 {
+    height: 240vh;
+  }
+  .tier-1 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 20px;
+  }
+  .num0 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier1 {
+    position: relative;
+    height: 180px;
+    top: 140px;
+    left: 30px;
+  }
+  .heading1 {
+    position: relative;
+    font-size: 17px;
+    width: 200px;
+    margin-left: -870px;
+    padding-top: 40px;
+  }
+  .paragraph1 {
+    width: 280px;
+    margin-left: 55px;
+    top: 200px;
+    font-size: 14px;
+  }
+  .tier-2 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 170px;
+  }
+  .num1 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier2 {
+    position: relative;
+    height: 180px;
+    top: 420px;
+    left: 30px;
+  }
+  .heading2 {
+    position: relative;
+    width: 300px;
+    font-size: 16px;
+    margin-left: -860px;
+    padding-top: 10px;
+  }
+
+  .paragraph2 {
+    width: 280px;
+    margin-left: 55px;
+    top: 480px;
+    font-size: 14px;
+  }
+  .tier-3 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 300px;
+  }
+  .num2 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier3 {
+    position: relative;
+    height: 180px;
+    top: 720px;
+    left: 30px;
+  }
+  .heading3 {
+    position: relative;
+    width: 300px;
+    font-size: 16px;
+    padding-top: 15px;
+    margin-left: -860px;
+  }
+
+  .paragraph3 {
+    width: 280px;
+    margin-left: 55px;
+    font-size: 14px;
+  }
+
+  .tier-4 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 430px;
+  }
+  .num3 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier4 {
+    position: relative;
+    height: 180px;
+    top: 1040px;
+    left: 30px;
+  }
+  .heading4 {
+    position: relative;
+    width: 300px;
+    font-size: 16px;
+    margin-top: -290px;
+    margin-left: -860px;
+  }
+
+  .paragraph4 {
+    width: 280px;
+    padding-top: 50px;
+    margin-left: 55px;
+    font-size: 14px;
+  }
+
+  .parent-tier::after {
+    left: 50%;
+    margin-left: 10px;
+  }
+  .rectangle-div1 {
+    height: 2000vh;
+  }
+}

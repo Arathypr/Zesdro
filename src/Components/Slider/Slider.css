@@ -1,0 +1,180 @@
+.rectangle-slider {
+  position: relative;
+  background: linear-gradient(112.72deg, #2e335a, #1c1b33);
+  width: 100%;
+  height: 1893px;
+}
+.we {
+  color: #fff;
+}
+
+.we-lead-organizations-container {
+  position: relative;
+  font-size: 65px;
+  letter-spacing: 0.02em;
+  font-family: Betatron;
+  text-align: center;
+  -webkit-text-stroke: 1px #fff;
+  color: #fff;
+}
+.web {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  padding-bottom: 1.5rem;
+}
+.projects {
+  position: relative;
+  font-size: 80px;
+  letter-spacing: 0.02em;
+  font-family: Orbitron;
+  text-align: center;
+  left: 650px;
+  top: 500px;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  transform: rotate(-90deg);
+}
+
+.b {
+  position: relative;
+  font-size: 80px;
+  letter-spacing: 0.02em;
+  font-family: Orbitron;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  top: 1200px;
+}
+.imagebg1 {
+  position: relative;
+  top: -50px;
+  height: 700px;
+  left: 300px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+.iza-apparels {
+  position: relative;
+  font-size: 64px;
+  letter-spacing: 0.02em;
+  font-family: Betatron;
+  top: -480px;
+  left: -50px;
+  color: #ffffff;
+  text-align: center;
+}
+.case-study {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.case-study-child {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  top: -460px;
+  left: 470px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.imagebg2 {
+  position: relative;
+  overflow: hidden;
+  top: -100px;
+  height: 500px;
+  transform: rotate(27.88deg);
+  left: 300px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.gelie-shrsta {
+  position: relative;
+  font-size: 64px;
+  letter-spacing: 0.02em;
+  font-family: Betatron;
+  top: -400px;
+  left: -100px;
+  color: #ffffff;
+  text-align: center;
+}
+.case-study-child1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  top: -400px;
+  left: 410px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: Orbitron;
+}
+
+@media screen and (max-width: 500px) {
+  .we-lead-organizations-container {
+    font-size: 23px;
+  }
+  .iza-apparels {
+    font-size: 25px;
+    top: -120px;
+    left: -10px;
+  }
+  .gelie-shrsta {
+    font-size: 25px;
+    top: -90px;
+    left: -10px;
+  }
+  .projects {
+    font-size: 20px;
+    left: 160px;
+    top: 250px;
+  }
+  .b {
+    font-size: 20px;
+    top: 420px;
+  }
+  .case-study-child {
+    font-size: 10px;
+    width: 10%;
+    top: -120px;
+    left: 70px;
+  }
+  .case-study-child1 {
+    font-size: 10px;
+    width: 10%;
+    top: -80px;
+    left: 80px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: 50px;
+    height: 260px;
+    left: 30px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 50px;
+    height: 180px;
+    transform: rotate(27.88deg);
+    left: 45px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 100vh;
+  }
+}

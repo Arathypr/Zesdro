@@ -1,0 +1,104 @@
+.rectangle-div2 {
+  position: relative;
+  background: linear-gradient(to right, #2e335a, #1c1b33);
+  width: 100%;
+  height: 150vh;
+}
+.human-hand-icon {
+  overflow: hidden;
+  position: relative;
+  width: 60%;
+  height: 800px;
+  object-fit: cover;
+  left: 605px;
+  top: -350px;
+}
+.human-hand-icon1 {
+  overflow: hidden;
+  position: relative;
+  width: 65%;
+  height: 780px;
+  object-fit: cover;
+  top: -750px;
+  left: -190px;
+}
+
+@media screen and (max-width: 800px) {
+  .human-hand-icon {
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+    height: 500px;
+    object-fit: cover;
+    left: 300px;
+    top: -100px;
+  }
+  .human-hand-icon1 {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    height: 800px;
+    object-fit: cover;
+    left: -110px;
+    top: -330px;
+  }
+  .dots {
+    width: 30%;
+  }
+  .rectangle-div2 {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .human-hand-icon {
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+    height: 800px;
+    object-fit: cover;
+    left: 150px;
+    top: 50px;
+  }
+  .human-hand-icon1 {
+    position: relative;
+    overflow: hidden;
+    width: 72%;
+    height: 800px;
+    object-fit: cover;
+    left: -70px;
+    top: -60px;
+  }
+  .dots {
+    width: 40%;
+  }
+  .rectangle-div2 {
+    width: 100%;
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 400) and (min-width: 365px) {
+  .human-hand-icon {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    height: 800px;
+    left: 110px;
+    top: 0px;
+  }
+  .human-hand-icon1 {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    height: 800px;
+    left: -80px;
+    top: -120px;
+  }
+  .dots {
+    width: 50%;
+  }
+  .rectangle-div2 {
+    height: 70vh;
+  }
+}

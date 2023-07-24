@@ -1,0 +1,193 @@
+.rectangle-div {
+  position: relative;
+  background: linear-gradient(to right, #2e335a, #1c1b33);
+  width: 100%;
+  height: 150vh;
+}
+.powering-your-brands-container {
+  position: relative;
+  font-size: 65px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-family: betatron;
+  text-align: center;
+  color: white;
+}
+.powering-your-brands {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}
+.with-our-core {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  padding-bottom: 1.5rem;
+}
+
+.this-is-the {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 0.02rem;
+  font-family: orbitron;
+  text-align: center;
+  line-height: 32px;
+}
+.vector-box {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  left: 890px;
+  bottom: 600px;
+}
+.vector-box1 {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  left: 890px;
+  bottom: 320px;
+}
+.vector-box2 {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  left: 280px;
+  bottom: 440px;
+}
+.experiences {
+  font-weight: 600;
+}
+.we-focus-on-container {
+  position: absolute;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  color: #fff;
+  left: 910px;
+  bottom: 650px;
+  text-align: left;
+  display: inline-block;
+  width: 280px;
+  font-family: Orbitron;
+}
+.we-believe-every-container {
+  position: absolute;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  color: #fff;
+  left: 910px;
+  bottom: 350px;
+  text-align: left;
+  display: inline-block;
+  width: 284px;
+  font-family: Orbitron;
+}
+.technology-is-a-container {
+  position: absolute;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  color: #fff;
+  left: 290px;
+  bottom: 450px;
+  text-align: left;
+  display: inline-block;
+  width: 284px;
+  font-family: Orbitron;
+}
+@media screen and (max-width: 872px) {
+  .powering-your-brands-container {
+    font-size: 30px;
+  }
+  .this-is-the {
+    font-size: 13px;
+  }
+  .piechart {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 710px) {
+  .powering-your-brands-container {
+    font-size: 27px;
+  }
+  .this-is-the {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 614px) {
+  .powering-your-brands-container {
+    font-size: 25px;
+  }
+  .this-is-the {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .rectangle-div {
+    height: 200vh;
+  }
+  .powering-your-brands-container {
+    font-size: 23px;
+  }
+  .this-is-the {
+    font-size: 15px;
+  }
+  .we-focus-on-container {
+    position: absolute;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    line-height: 30px;
+    left: 55px;
+    bottom: 750px;
+    text-align: left;
+    display: inline-block;
+    width: 280px;
+  }
+  .we-believe-every-container {
+    position: absolute;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    line-height: 30px;
+    color: #fff;
+    left: 55px;
+    bottom: 70px;
+    text-align: left;
+    display: inline-block;
+    width: 284px;
+    font-family: Orbitron;
+  }
+  .technology-is-a-container {
+    position: absolute;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    line-height: 30px;
+    color: #fff;
+    left: 50px;
+    bottom: 200px;
+    display: inline-block;
+    width: 280px;
+    font-family: Orbitron;
+  }
+
+  .vector-box {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    left: 20px;
+    bottom: 700px;
+  }
+  .vector-box1 {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    left: 20px;
+    bottom: 0px;
+  }
+  .vector-box2 {
+    position: relative;
+    width: 100%;
+    height: 185px;
+    left: 20px;
+    bottom: 200px;
+  }
+}
