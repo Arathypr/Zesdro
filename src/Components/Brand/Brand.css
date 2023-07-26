@@ -233,7 +233,7 @@
     bottom: 50px !important;
   }
 }
-@media only screen and (min-width: 390px) and (max-width: 393px) and (orientation: portrait) {
+@media only screen and (min-width: 375px) and (max-width: 393px) and (orientation: portrait) {
   .powering-your-brands-container {
     font-size: 23px;
   }
