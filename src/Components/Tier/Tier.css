@@ -631,6 +631,156 @@
     height: 350vh !important;
   }
 }
+@media screen and (min-width: 412px) and (max-width: 415px) and (orientation: portrait) {
+  .have-any-troubles-container {
+    font-size: 23px;
+  }
+  .we-are-a-container {
+    font-size: 13px;
+  }
+  .rectangle-div1 {
+    height: 210vh;
+  }
+  .tier-1 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 20px;
+  }
+  .num0 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier1 {
+    position: relative;
+    height: 180px;
+    top: 140px;
+    left: 30px;
+  }
+  .heading1 {
+    position: relative;
+    font-size: 16px;
+    width: 200px;
+    margin-left: -880px;
+    top: 0px !important;
+  }
+  .paragraph1 {
+    width: 300px;
+    margin-left: 50px;
+    top: 200px;
+    font-size: 15px;
+  }
+  .tier-2 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 170px;
+  }
+  .num1 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier2 {
+    position: relative;
+    height: 180px;
+    top: 420px;
+    left: 30px;
+  }
+  .heading2 {
+    position: relative;
+    width: 300px;
+    font-size: 16px;
+    margin-left: -870px;
+    top: 115px !important;
+  }
+
+  .paragraph2 {
+    width: 300px;
+    margin-left: 50px;
+    top: 470px;
+    font-size: 15px;
+  }
+  .tier-3 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 300px;
+  }
+  .num2 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier3 {
+    position: relative;
+    height: 180px;
+    top: 720px;
+    left: 30px;
+  }
+  .heading3 {
+    position: relative;
+    width: 300px;
+    font-size: 16px;
+    top: 250px !important;
+    margin-left: -870px;
+  }
+
+  .paragraph3 {
+    width: 300px;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 0px;
+  }
+
+  .tier-4 {
+    font-size: 55px;
+    width: 50%;
+    letter-spacing: 0.02em;
+    font-family: orbitron;
+    margin-left: -350px;
+    top: 430px;
+  }
+  .num3 {
+    position: relative;
+    top: -82px;
+    left: 180px;
+  }
+  .vector-tier4 {
+    position: relative;
+    height: 180px;
+    top: 1040px;
+    left: 30px;
+  }
+  .heading4 {
+    position: relative;
+    width: 300px;
+    font-size: 17px;
+    margin-top: -290px;
+    margin-left: -880px;
+  }
+
+  .paragraph4 {
+    width: 300px;
+    padding-top: 35px;
+    margin-left: 50px;
+    font-size: 15px;
+  }
+
+  .parent-tier::after {
+    left: 50%;
+    margin-left: 20px;
+    height: 150vh;
+  }
+}
+/*
 @media screen and (max-width: 500px) and (orientation: landscape) {
   .have-any-troubles-container {
     font-size: 23px;
@@ -807,7 +957,7 @@
   }
   .vector-tier1 {
     position: relative;
-    height: 230px;
+    height: 250px !important;
     top: 140px;
     left: 250px;
   }

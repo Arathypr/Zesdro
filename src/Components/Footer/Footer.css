@@ -233,6 +233,28 @@ nav ul li {
     left: 70px;
   }
 }
+@media screen and (min-width: 412px) and (max-width: 415px) and (orientation: portrait) {
+  .celozisall-rights-reserved {
+    left: 10%;
+    font-size: 15px;
+  }
+  .have-a-cryptic-container {
+    font-size: 23px;
+  }
+  .feel-free-to {
+    font-size: 13px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    margin: 28px;
+    padding: 0px;
+    font-size: 15px;
+  }
+  .dots1 {
+    width: 70%;
+    left: 118px;
+  }
+}
 
 /*tab*/
 @media screen and (min-width: 750px) and (max-width: 1280px) {

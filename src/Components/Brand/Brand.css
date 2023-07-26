@@ -301,7 +301,7 @@
     left: 40px !important;
     bottom: 50px !important;
   }
-} /*
+}
 @media screen and (min-width: 412px) and (max-width: 415px) and (orientation: portrait) {
   .rectangle-div {
     height: 200vh;

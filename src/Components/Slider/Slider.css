@@ -299,6 +299,65 @@
     height: 100vh;
   }
 }
+@media screen and (min-width: 412px) and (max-width: 415px) and (orientation: portrait) {
+  .we-lead-organizations-container {
+    font-size: 23px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -170px;
+    left: 120px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -70px;
+    left: 100px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 170px;
+    top: 150px;
+  }
+  .b {
+    font-size: 25px;
+    top: 350px;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -145px;
+    left: 65px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -40px;
+    left: 65px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -10px;
+    height: 265px;
+    left: 33px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 50px;
+    height: 170px;
+    transform: rotate(27.88deg);
+    left: 45px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 100vh;
+  }
+}
 /*tab*/
 @media screen and (min-width: 768px) and (max-width: 835px) {
   .we-lead-organizations-container {
