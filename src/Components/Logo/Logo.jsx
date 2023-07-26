@@ -15,9 +15,7 @@ function Logo(){
                 </p>
                 <p className="a-visionary-independent">
                     of strategy, design, and technology. We lead organizations into their
-                    digital
-                </p>
-                <p className="future"> future.</p>
+                    digital future.</p>
             </div>
 
         </div>

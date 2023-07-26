@@ -11,11 +11,11 @@ function Tier(){
             <div className="we-are-a-container">
             <p className="we-are-a">
                 We are a team of qualified professionals specializing in different areas of
-                digital services. We work
+                digital services. 
             </p>
             <p className="we-are-a">
                 {" "}
-                closely with our clients to offer tailored solutions based on their specific
+                We work closely with our clients to offer tailored solutions based on their specific
                 needs, using the latest
             </p>
             <p className="we-are-a">
@@ -28,7 +28,9 @@ function Tier(){
                 <div className="timeline">
                     <div className="tier-1 left-container " style={{ left: "400px" }}>TIER <span className="num0">0</span> </div>
                     <div className="about">
-                        <h2 className="heading1  right-container position-absolute " style={{ left: "930px" ,top:"130px" }}>SELF SERVICE UNIT</h2>
+                        <div className="position-absolute">
+                        <h2 className="heading1  right-container " style={{ left: "930px" ,top:"130px" }}>SELF SERVICE UNIT</h2>
+                        </div>
                         <p className="paragraph1 position-absolute">
                             Anyone can use our chatbots, blogs or websites.
                             <br />
@@ -40,9 +42,11 @@ function Tier(){
                 <div className="timeline ">
                     <div className="tier-2 left-container " style={{ left: "400px" }}>TIER <span className="num1">1</span></div>
                     <div className="about">
-                        <h2 className="heading2  right-container  position-absolute  " style={{ top: "430px", left:"920px" }}>
+                     <div className="position-absolute">
+                        <h2 className="heading2  right-container " style={{ top: "430px", left:"920px" }}>
                             CUSTOMER SUPPORT DIVISION
-                        </h2>
+                         </h2>
+                        </div>
                         <p className="paragraph2 position-absolute">
                             Our Customer Support Team addressea the issue and the user gets the
                             response within 24-48 hours.
@@ -53,9 +57,10 @@ function Tier(){
                 <div className="timeline">
                     <div className="tier-3 left-container" style={{ left: "400px" }}>TIER <span className="num2">2</span></div>
                     <div className="about">
-                        <h2 className="heading3 right-container position-absolute " style={{ top: "730px",left:"920px" }}>
+                    <div className="position-absolute">
+                        <h2 className="heading3 right-container " style={{ top: "730px",left:"920px" }}>
                             TECHNICAL SUPPORT DIVISION
-                        </h2>
+                    </h2></div>
                         <p className="paragraph3  right-container position-absolute" style={{ top: "770px" }}>
                             If the solution you received is not satisfactory,our Tier 2 technical
                             team will monitor it and you will be notified within 3 to 5 bussiness
@@ -67,9 +72,10 @@ function Tier(){
                 <div className="timeline">
                     <div className="tier-4 left-container" style={{ left: "400px" }}>TIER <span className="num3">3</span></div>
                         <div className="about">
-                        <h2 className="heading4 right-container" style={{ top: "700px",left:"930px" }}>
+                   <div className="position-absolute">
+                        <h2 className="heading4 right-container " style={{ top: "700px",left:"930px" }}>
                             NODAL SERVICE REGION
-                        </h2>
+                        </h2></div>
                         <p className="paragraph4  right-container position-absolute" style={{ top: "1060px" }}>
                             Inquiries will be escalated to the Nodal Officer on Tier 3 if the issue
                             is again not cleared and you will be notified within 3to 5 bussiness

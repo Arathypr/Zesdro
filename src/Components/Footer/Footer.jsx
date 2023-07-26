@@ -5,7 +5,7 @@ import Union from "../../assets/Union.png"
 function Footer(){
     return(
      <div className="rectangle-div3 container-fluid">
-      <div className='position-relative'> <img src={Groupdot} className="dots position-absolute bottom-0 end-0" /></div>
+      <div className='position-relative'> <img src={Groupdot} className=" dots1 position-absolute bottom-0 end-0" /></div>
         <div className="have-a-cryptic-container">
           <p className="have-a-cryptic-project-with-yo">
             <span>Have a </span>
@@ -25,6 +25,7 @@ function Footer(){
         <div class="d-flex flex-row mb-3 imagecontainer mt justify-content-evenly">
             <div class="p-2 logo">Zesdro_Logo</div>
             <div class="p-2"><img src={Union} alt="" className='img'/>
+            p
             </div>    
         </div>
         <div class="d-flex flex-row mb-3 imagecontainer mt justify-content-evenly">

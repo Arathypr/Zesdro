@@ -2,6 +2,9 @@
 import React, { useCallback, useState ,useEffect} from "react";
 import { PieChart, Pie, Sector } from "recharts";
 
+ 
+
+
 const data = [
   { name: "CUSTOMER", value: 300 },
   { name: "TECHNOLOGY", value: 300 },
@@ -74,10 +77,10 @@ export default function App() {
   );
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+    <div className="piechart" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <div style={{ textAlign: 'center' }}>
-        <PieChart width={370} height={400}>
-          <Pie
+        <PieChart className="piechart" width={335} height={400}>
+          <Pie className="piechart"
             activeIndex={activeIndex}
             activeShape={renderActiveShape}
             data={data}
@@ -93,4 +96,6 @@ export default function App() {
       </div>
     </div>
   );
+
 }
+

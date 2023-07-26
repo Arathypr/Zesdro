@@ -177,31 +177,8 @@ nav ul li a {
 nav ul li {
   display: inline-flex;
 }
-@media screen and (max-width: 872px) {
-  .have-a-cryptic-container {
-    font-size: 30px;
-  }
-  .feel-free-to {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 710px) {
-  .have-a-cryptic-container {
-    font-size: 27px;
-  }
-  .feel-free-to {
-    font-size: 8px;
-  }
-}
-@media screen and (max-width: 614px) {
-  .have-a-cryptic-container {
-    font-size: 25px;
-  }
-  .feel-free-to {
-    font-size: 10px;
-  }
-}
-@media screen and (max-width: 500px) {
+/*phone*/
+@media screen and (max-width: 360px) and (orientation: portrait) {
   .have-a-cryptic-container {
     font-size: 23px;
   }
@@ -210,5 +187,129 @@ nav ul li {
   }
   .celozisall-rights-reserved {
     left: auto;
+  }
+  .dots1 {
+    width: 80%;
+    left: 70px;
+  }
+  nav ul li a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 393px) and (orientation: portrait) {
+  .dots1 {
+    width: 80%;
+  }
+  .have-a-cryptic-container {
+    font-size: 23px;
+  }
+  .feel-free-to {
+    font-size: 15px;
+  }
+  .celozisall-rights-reserved {
+    font-size: 16px;
+    left: 30px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 350px) and (orientation: portrait) {
+  .celozisall-rights-reserved {
+    left: 5%;
+    font-size: 15px;
+  }
+  .have-a-cryptic-container {
+    font-size: 23px;
+  }
+  .feel-free-to {
+    font-size: 13px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    margin: 28px;
+    padding: 0px;
+    font-size: 10px;
+  }
+  .dots1 {
+    width: 80%;
+    left: 70px;
+  }
+}
+
+/*tab*/
+@media screen and (min-width: 750px) and (max-width: 1280px) {
+  .celozisall-rights-reserved {
+    left: 20%;
+    font-size: 25px;
+  }
+  .have-a-cryptic-container {
+    font-size: 55px;
+  }
+  .feel-free-to {
+    font-size: 25px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    margin: 28px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .dots1 {
+    width: 60%;
+    left: 300px;
+  }
+}
+
+/*landscapetab*/
+@media only screen and (width: 1024px) and (orientation: landscape) {
+  .celozisall-rights-reserved {
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    text-align: center;
+    left: 25%;
+  }
+  .dots1 {
+    width: 60%;
+    left: 390px !important;
+  }
+  nav ul li a {
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 1280px) and (orientation: landscape) {
+  .celozisall-rights-reserved {
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    text-align: center;
+    left: 33%;
+  }
+  .dots1 {
+    width: 60%;
+    left: 450px;
+  }
+  nav ul li a {
+    padding-left: 100px;
+  }
+}
+@media only screen and (width: 1180px) and(orientation: landscape) {
+  .celozisall-rights-reserved {
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    text-align: center;
+    left: 40%;
+  }
+  .dots1 {
+    width: 60%;
+    left: 300px;
+  }
+  nav ul li a {
+    padding-left: 100px;
   }
 }

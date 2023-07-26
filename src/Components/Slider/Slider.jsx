@@ -19,7 +19,9 @@ function Slider(){
         <div className="projects">PROJECTS</div>
         <div className="b">01/09</div>
         <img className="imagebg1" alt="" src={bg1}/>
-        <div className="iza-apparels">IZA APPARELS</div>
+        <div className="position-absolute">
+        <div className="iza-apparels ">IZA APPARELS</div>
+        </div>
         <div className="case-study position-absolute">
         <div className="case-study-child">
           <div className="case-study">Case Study</div>
@@ -29,7 +31,9 @@ function Slider(){
         </div>
         
         <img src={bg2} className="imagebg2" />
+        <div className="position-absolute">
         <div className="gelie-shrsta">GELIE SHRSTA</div>
+        </div>
         <div className="case-study position-absolute">
         <div className="case-study-child1">
           <div className="case-study">Case Study</div>

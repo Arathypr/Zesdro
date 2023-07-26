@@ -77,3 +77,38 @@
     color: #fff;
   }
 }
+/*phone*/
+
+/*tab potrait*/
+
+@media screen and (max-width: 800px) {
+  .rectangle_logo {
+    height: 80vh !important;
+  }
+}
+@media screen and (max-width: 820px) {
+  .rectangle_logo {
+    height: 90vh !important;
+  }
+}
+@media screen and (max-width: 836px) {
+  .rectangle_logo {
+    height: 100vh !important;
+  }
+}
+/* tab lanscape*/
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .a-visionary-independent-container {
+    color: #fff;
+    font-size: 25px;
+    width: 900px;
+    letter-spacing: 0.02rem;
+    font-family: orbitron;
+    margin-left: 6%;
+    line-height: 35px;
+    margin-top: 170px;
+  }
+  .its-all-about-container {
+    font-size: 75px;
+  }
+}
