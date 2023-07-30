@@ -147,6 +147,30 @@
   }
 }
 /*phone landscape*/
+@media screen and (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
+  .digital {
+    font-size: 5rem !important;
+    margin-left: 150px;
+  }
+  .an-independent-creative-container {
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    transform: translate(110%, 100%);
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+  }
+  .dotcomb {
+    position: absolute;
+    top: 26.5%;
+    left: 15%;
+    transform: translate(1200%, 1650%);
+  }
+}
 @media only screen and (min-width: 731px) and (max-width: 811px) and (orientation: landscape) {
   .digital {
     font-size: 5rem !important;
