@@ -92,6 +92,21 @@
   }
 }
 /** phone Landscape**/
+@media screen and (min-width: 700px) and (max-width: 730px) and (orientation: landscape) {
+  .rectangle_logo {
+    height: 180vh !important;
+  }
+  .a-visionary-independent-container {
+    font-size: 15px;
+    margin-top: 100px;
+  }
+  .its-all-about-container {
+    font-size: 45px;
+  }
+  .text-logo {
+    font-size: 100px !important;
+  }
+}
 @media only screen and (min-width: 731px) and (max-width: 811px) and (orientation: landscape) {
   .rectangle_logo {
     height: 180vh !important;

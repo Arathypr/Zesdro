@@ -12,7 +12,7 @@ import Circle from "./Components/Circle/Circle";
 function App() {
   return (
     <>
-      {/* <HoneyComb />*/}
+      <HoneyComb />
       <Logo />
       <Brand />
       {/*<Whyus />*/}

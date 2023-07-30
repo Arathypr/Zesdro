@@ -779,19 +779,19 @@
   }
   .iza-apparels {
     position: relative;
-    font-size: 35px;
+    font-size: 30px;
     top: -400px;
     left: 250px;
   }
   .gelie-shrsta {
     position: relative;
-    font-size: 35px;
+    font-size: 30px;
     top: -290px;
     left: 250px;
   }
   .projects {
     font-size: 35px;
-    left: 350px;
+    left: 30px;
     top: 250px;
   }
   .b {
@@ -800,13 +800,11 @@
   }
   .case-study-child {
     font-size: 15px;
-    width: 100%;
     top: -350px;
     left: 130px;
   }
   .case-study-child1 {
     font-size: 15px;
-    width: 100%;
     top: -230px;
     left: 160px;
   }

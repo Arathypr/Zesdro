@@ -373,7 +373,7 @@
 }
 
 /*phone landscape*/
-@media screen and (min-width: 731px) and (max-width: 750px) and (orientation: landscape) {
+@media screen and (min-width: 731px) and (max-width: 811px) and (orientation: landscape) {
   .powering-your-brands-container {
     font-size: 45px !important;
   }

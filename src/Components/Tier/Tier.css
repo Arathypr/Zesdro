@@ -1227,6 +1227,117 @@
     line-height: 180%;
   }
 }
+@media screen and (min-width: 700px) and (max-width: 730px) and (orientation: landscape) {
+  .have-any-troubles-container {
+    font-size: 45px;
+  }
+  .we-are-a-container {
+    font-size: 15px;
+    line-height: 150%;
+  }
+  .rectangle-div1 {
+    height: 530vh !important;
+  }
+  .tier-1 {
+    left: 30px !important;
+    font-size: 40px;
+  }
+  .tier-2 {
+    left: 30px !important;
+    font-size: 40px;
+  }
+  .tier-3 {
+    left: 30px !important;
+    font-size: 40px;
+  }
+  .tier-4 {
+    left: 30px !important;
+    font-size: 40px;
+  }
+  .parent-tier::after {
+    left: 135%;
+    height: 360vh;
+  }
+  .vector-tier1 {
+    position: relative;
+    left: 240px;
+    top: 90px;
+    height: 65%;
+  }
+  .vector-tier2 {
+    position: relative;
+    left: 240px;
+    top: 380px;
+    height: 65%;
+  }
+  .vector-tier3 {
+    position: relative;
+    left: 240px;
+    top: 680px;
+    height: 65%;
+  }
+  .vector-tier4 {
+    position: relative;
+    left: 240px;
+    height: 65%;
+    top: 950px;
+  }
+  .heading1 {
+    position: relative;
+    left: 260px !important;
+    font-size: 15px;
+    top: 50px !important;
+  }
+  .paragraph1 {
+    position: relative;
+    left: -670px;
+    top: 135px;
+    font-size: 12px;
+    line-height: 180%;
+  }
+  .heading2 {
+    position: relative;
+    left: 260px !important;
+    top: 285px !important;
+    font-size: 14px;
+  }
+  .paragraph2 {
+    position: relative;
+    left: -670px !important;
+    top: 430px;
+    font-size: 12px;
+
+    line-height: 180%;
+  }
+  .heading3 {
+    position: relative;
+    left: 260px !important;
+    font-size: 14px;
+    top: 525px !important;
+  }
+  .paragraph3 {
+    position: relative;
+    left: -540px;
+    top: 728px !important;
+    font-size: 12px;
+
+    line-height: 180%;
+  }
+  .heading4 {
+    position: relative;
+    left: 260px !important;
+    top: 730px !important;
+    font-size: 14px;
+  }
+  .paragraph4 {
+    position: relative;
+    left: -540px;
+    top: 995px !important;
+    font-size: 12px;
+
+    line-height: 180%;
+  }
+}
 @media screen and (min-width: 731px) and (max-width: 781px) and (orientation: landscape) {
   .have-any-troubles-container {
     font-size: 45px;
