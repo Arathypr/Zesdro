@@ -2,7 +2,7 @@
   position: relative;
   background: linear-gradient(112.72deg, #2e335a, #1c1b33);
   width: 100%;
-  height: 240vh;
+  height: 260vh;
 }
 .have-any-troubles {
   margin-block-start: 0;
@@ -505,22 +505,21 @@
   }
   .vector-tier1 {
     position: relative;
-    height: 140px;
+    height: 150px;
     top: 140px;
     left: 30px;
   }
   .heading1 {
     position: relative;
     font-size: 14px;
-
     margin-left: -880px;
     top: -10px !important;
   }
   .paragraph1 {
-    width: 220px;
     margin-left: 50px;
-    top: 180px;
+    top: 175px;
     font-size: 10px;
+    width: 220px;
   }
   .tier-2 {
     font-size: 55px;
@@ -537,23 +536,24 @@
   }
   .vector-tier2 {
     position: relative;
-    height: 140px;
+    height: 150px;
     top: 420px;
     left: 30px;
   }
   .heading2 {
     position: relative;
-
-    font-size: 14px;
-    margin-left: -875px;
+    font-size: 13px;
+    margin-left: -870px;
+    width: 150px;
     top: 105px !important;
   }
 
   .paragraph2 {
-    width: 220px;
-    margin-left: 45px;
+    margin-left: 50px;
     top: 470px;
-    font-size: 10px;
+    line-height: 200%;
+    font-size: 11px;
+    width: 220px;
   }
   .tier-3 {
     font-size: 55px;
@@ -570,23 +570,23 @@
   }
   .vector-tier3 {
     position: relative;
-    height: 140px;
+    height: 150px;
     top: 720px;
     left: 30px;
   }
   .heading3 {
     position: relative;
-
     font-size: 14px;
     top: 235px !important;
-    margin-left: -877px;
+    margin-left: -870px;
+    width: 220px;
   }
 
   .paragraph3 {
-    width: 240px;
     margin-left: 50px;
-    font-size: 10px;
+    font-size: 11px;
     margin-top: -11px;
+    width: 250px;
   }
 
   .tier-4 {
@@ -604,7 +604,7 @@
   }
   .vector-tier4 {
     position: relative;
-    height: 140px;
+    height: 150px;
     top: 1040px;
     left: 30px;
   }
@@ -613,13 +613,14 @@
     font-size: 14px;
     margin-top: -305px;
     margin-left: -880px;
+    width: 220px;
   }
 
   .paragraph4 {
-    width: 200px;
     padding-top: 20px;
     margin-left: 50px;
-    font-size: 10px;
+    width: 250px;
+    font-size: 11px;
   }
 
   .parent-tier::after {
@@ -631,7 +632,7 @@
     height: 350vh !important;
   }
 }
-@media screen and (min-width: 412px) and (max-width: 415px) and (orientation: portrait) {
+@media screen and (min-width: 412px) and (max-width: 450px) and (orientation: portrait) {
   .have-any-troubles-container {
     font-size: 23px;
   }
@@ -780,159 +781,676 @@
     height: 150vh;
   }
 }
-/*
-@media screen and (max-width: 500px) and (orientation: landscape) {
+/*phone landscape*/
+@media only screen and (min-width: 768px) and (max-width: 815px) and (orientation: landscape) {
   .have-any-troubles-container {
-    font-size: 23px;
+    font-size: 45px;
   }
   .we-are-a-container {
-    font-size: 13px;
+    font-size: 15px;
   }
   .rectangle-div1 {
-    height: 240vh;
+    height: 500vh !important;
   }
   .tier-1 {
-    font-size: 55px;
-    width: 50%;
-    letter-spacing: 0.02em;
-    font-family: orbitron;
-    margin-left: -350px;
-    top: 20px;
+    left: 100px !important;
+    font-size: 40px;
   }
-  .num0 {
-    position: relative;
-    top: -82px;
-    left: 180px;
+  .tier-2 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-3 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-4 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .parent-tier::after {
+    left: 200%;
+    height: 350vh;
   }
   .vector-tier1 {
     position: relative;
-    height: 180px;
-    top: 140px;
-    left: 30px;
-  }
-  .heading1 {
-    position: relative;
-    font-size: 17px;
-    width: 200px;
-    margin-left: -870px;
-    padding-top: 40px;
-  }
-  .paragraph1 {
-    width: 280px;
-    margin-left: 55px;
-    top: 200px;
-    font-size: 14px;
-  }
-  .tier-2 {
-    font-size: 55px;
-    width: 50%;
-    letter-spacing: 0.02em;
-    font-family: orbitron;
-    margin-left: -350px;
-    top: 170px;
-  }
-  .num1 {
-    position: relative;
-    top: -82px;
-    left: 180px;
+    left: 400px;
+    top: 90px;
+    height: 70%;
   }
   .vector-tier2 {
     position: relative;
-    height: 180px;
-    top: 420px;
-    left: 30px;
-  }
-  .heading2 {
-    position: relative;
-    width: 300px;
-    font-size: 16px;
-    margin-left: -860px;
-    padding-top: 10px;
-  }
-
-  .paragraph2 {
-    width: 280px;
-    margin-left: 55px;
-    top: 480px;
-    font-size: 14px;
-  }
-  .tier-3 {
-    font-size: 55px;
-    width: 50%;
-    letter-spacing: 0.02em;
-    font-family: orbitron;
-    margin-left: -350px;
-    top: 300px;
-  }
-  .num2 {
-    position: relative;
-    top: -82px;
-    left: 180px;
+    left: 400px;
+    top: 380px;
+    height: 70%;
   }
   .vector-tier3 {
     position: relative;
-    height: 180px;
-    top: 720px;
-    left: 30px;
-  }
-  .heading3 {
-    position: relative;
-    width: 300px;
-    font-size: 16px;
-    padding-top: 15px;
-    margin-left: -860px;
-  }
-
-  .paragraph3 {
-    width: 280px;
-    margin-left: 55px;
-    font-size: 14px;
-  }
-
-  .tier-4 {
-    font-size: 55px;
-    width: 50%;
-    letter-spacing: 0.02em;
-    font-family: orbitron;
-    margin-left: -350px;
-    top: 430px;
-  }
-  .num3 {
-    position: relative;
-    top: -82px;
-    left: 180px;
+    left: 400px;
+    top: 680px;
+    height: 70%;
   }
   .vector-tier4 {
     position: relative;
-    height: 180px;
-    top: 1040px;
-    left: 30px;
+    left: 400px;
+    height: 70%;
+    top: 950px;
+  }
+  .heading1 {
+    position: relative;
+    left: 420px !important;
+    font-size: 16.5px;
+    top: 50px !important;
+  }
+  .paragraph1 {
+    position: relative;
+    left: -520px;
+    top: 150px;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading2 {
+    position: relative;
+    left: 420px !important;
+    top: 285px !important;
+    font-size: 16.5px;
+  }
+  .paragraph2 {
+    position: relative;
+    left: -520px !important;
+    top: 440px;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading3 {
+    position: relative;
+    left: 420px !important;
+    font-size: 16.5px;
+    top: 525px !important;
+  }
+  .paragraph3 {
+    position: relative;
+    left: -390px;
+    top: 740px !important;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
   }
   .heading4 {
     position: relative;
-    width: 300px;
-    font-size: 16px;
-    margin-top: -290px;
-    margin-left: -860px;
+    left: 420px !important;
+    top: 730px !important;
+    font-size: 16.5px;
   }
-
   .paragraph4 {
-    width: 280px;
-    padding-top: 50px;
-    margin-left: 55px;
-    font-size: 14px;
+    position: relative;
+    left: -390px;
+    top: 1000px !important;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
   }
-
-  .parent-tier::after {
-    left: 50%;
-    margin-left: 10px;
+}
+@media only screen and (min-width: 850px) and (max-width: 980px) and (orientation: landscape) {
+  .have-any-troubles-container {
+    font-size: 45px;
+  }
+  .we-are-a-container {
+    font-size: 15px;
   }
   .rectangle-div1 {
-    height: 2000vh;
+    height: 500vh !important;
+  }
+  .tier-1 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-2 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-3 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-4 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .parent-tier::after {
+    left: 200%;
+    height: 350vh;
+  }
+  .vector-tier1 {
+    position: relative;
+    left: 400px;
+    top: 90px;
+    height: 70%;
+  }
+  .vector-tier2 {
+    position: relative;
+    left: 400px;
+    top: 380px;
+    height: 70%;
+  }
+  .vector-tier3 {
+    position: relative;
+    left: 400px;
+    top: 680px;
+    height: 70%;
+  }
+  .vector-tier4 {
+    position: relative;
+    left: 400px;
+    height: 70%;
+    top: 950px;
+  }
+  .heading1 {
+    position: relative;
+    left: 420px !important;
+    font-size: 16.5px;
+    top: 50px !important;
+  }
+  .paragraph1 {
+    position: relative;
+    left: -520px;
+    top: 150px;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading2 {
+    position: relative;
+    left: 420px !important;
+    top: 285px !important;
+    font-size: 16.5px;
+  }
+  .paragraph2 {
+    position: relative;
+    left: -520px !important;
+    top: 440px;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading3 {
+    position: relative;
+    left: 420px !important;
+    font-size: 16.5px;
+    top: 525px !important;
+  }
+  .paragraph3 {
+    position: relative;
+    left: -390px;
+    top: 740px !important;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading4 {
+    position: relative;
+    left: 420px !important;
+    top: 730px !important;
+    font-size: 16.5px;
+  }
+  .paragraph4 {
+    position: relative;
+    left: -390px;
+    top: 1000px !important;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+}
+@media only screen and(min-width: 915px) and (max-width: 980px) and (orentation: landscape) {
+  .have-any-troubles-container {
+    font-size: 45px !important;
+  }
+  .we-are-a-container {
+    font-size: 10px !important;
+  }
+  .rectangle-div1 {
+    height: 500vh !important;
+  }
+  .tier-1 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-2 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-3 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-4 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .parent-tier::after {
+    left: 200%;
+    height: 350vh;
+  }
+  .vector-tier1 {
+    position: relative;
+    left: 400px;
+    top: 90px;
+    height: 70%;
+  }
+  .vector-tier2 {
+    position: relative;
+    left: 400px;
+    top: 380px;
+    height: 70%;
+  }
+  .vector-tier3 {
+    position: relative;
+    left: 400px;
+    top: 680px;
+    height: 70%;
+  }
+  .vector-tier4 {
+    position: relative;
+    left: 400px;
+    height: 70%;
+    top: 950px;
+  }
+  .heading1 {
+    position: relative;
+    left: 420px !important;
+    font-size: 16.5px;
+    top: 50px !important;
+  }
+  .paragraph1 {
+    position: relative;
+    left: -520px;
+    top: 150px;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading2 {
+    position: relative;
+    left: 420px !important;
+    top: 285px !important;
+    font-size: 16.5px;
+  }
+  .paragraph2 {
+    position: relative;
+    left: -520px !important;
+    top: 440px;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading3 {
+    position: relative;
+    left: 420px !important;
+    font-size: 16.5px;
+    top: 525px !important;
+  }
+  .paragraph3 {
+    position: relative;
+    left: -390px;
+    top: 740px !important;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading4 {
+    position: relative;
+    left: 420px !important;
+    top: 730px !important;
+    font-size: 16.5px;
+  }
+  .paragraph4 {
+    position: relative;
+    left: -390px;
+    top: 1000px !important;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+}
+/*iphone landscape*/
+@media screen and (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
+  .have-any-troubles-container {
+    font-size: 45px;
+  }
+  .we-are-a-container {
+    font-size: 15px;
+    line-height: 150%;
+  }
+  .rectangle-div1 {
+    height: 530vh !important;
+  }
+  .tier-1 {
+    left: 30px !important;
+    font-size: 40px;
+  }
+  .tier-2 {
+    left: 30px !important;
+    font-size: 40px;
+  }
+  .tier-3 {
+    left: 30px !important;
+    font-size: 40px;
+  }
+  .tier-4 {
+    left: 30px !important;
+    font-size: 40px;
+  }
+  .parent-tier::after {
+    left: 135%;
+    height: 360vh;
+  }
+  .vector-tier1 {
+    position: relative;
+    left: 240px;
+    top: 90px;
+    height: 65%;
+  }
+  .vector-tier2 {
+    position: relative;
+    left: 240px;
+    top: 380px;
+    height: 65%;
+  }
+  .vector-tier3 {
+    position: relative;
+    left: 240px;
+    top: 680px;
+    height: 65%;
+  }
+  .vector-tier4 {
+    position: relative;
+    left: 240px;
+    height: 65%;
+    top: 950px;
+  }
+  .heading1 {
+    position: relative;
+    left: 260px !important;
+    font-size: 15px;
+    top: 50px !important;
+  }
+  .paragraph1 {
+    position: relative;
+    left: -670px;
+    top: 135px;
+    font-size: 12px;
+    line-height: 180%;
+  }
+  .heading2 {
+    position: relative;
+    left: 260px !important;
+    top: 285px !important;
+    font-size: 14px;
+  }
+  .paragraph2 {
+    position: relative;
+    left: -670px !important;
+    top: 430px;
+    font-size: 12px;
+
+    line-height: 180%;
+  }
+  .heading3 {
+    position: relative;
+    left: 260px !important;
+    font-size: 14px;
+    top: 525px !important;
+  }
+  .paragraph3 {
+    position: relative;
+    left: -540px;
+    top: 728px !important;
+    font-size: 12px;
+
+    line-height: 180%;
+  }
+  .heading4 {
+    position: relative;
+    left: 260px !important;
+    top: 730px !important;
+    font-size: 14px;
+  }
+  .paragraph4 {
+    position: relative;
+    left: -540px;
+    top: 995px !important;
+    font-size: 12px;
+
+    line-height: 180%;
+  }
+}
+@media screen and (min-width: 731px) and (max-width: 781px) and (orientation: landscape) {
+  .have-any-troubles-container {
+    font-size: 45px;
+  }
+  .we-are-a-container {
+    font-size: 15px;
+  }
+  .rectangle-div1 {
+    height: 400vh !important;
+  }
+  .tier-1 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-2 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-3 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-4 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .parent-tier::after {
+    left: 200%;
+    height: 280vh;
+  }
+  .vector-tier1 {
+    position: relative;
+    left: 400px;
+    top: 90px;
+    height: 70%;
+  }
+  .vector-tier2 {
+    position: relative;
+    left: 400px;
+    top: 380px;
+    height: 70%;
+  }
+  .vector-tier3 {
+    position: relative;
+    left: 400px;
+    top: 680px;
+    height: 70%;
+  }
+  .vector-tier4 {
+    position: relative;
+    left: 400px;
+    height: 70%;
+    top: 950px;
+  }
+  .heading1 {
+    position: relative;
+    left: 420px !important;
+    font-size: 16.5px;
+    top: 50px !important;
+  }
+  .paragraph1 {
+    position: relative;
+    left: -520px;
+    top: 150px;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading2 {
+    position: relative;
+    left: 420px !important;
+    top: 285px !important;
+    font-size: 16.5px;
+  }
+  .paragraph2 {
+    position: relative;
+    left: -520px !important;
+    top: 440px;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading3 {
+    position: relative;
+    left: 420px !important;
+    font-size: 16.5px;
+    top: 525px !important;
+  }
+  .paragraph3 {
+    position: relative;
+    left: -390px;
+    top: 740px !important;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading4 {
+    position: relative;
+    left: 420px !important;
+    top: 730px !important;
+    font-size: 16.5px;
+  }
+  .paragraph4 {
+    position: relative;
+    left: -390px;
+    top: 1000px !important;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+}
+@media only screen and (min-width: 833px) and (max-width: 930px) and (orientation: landscape) {
+  .have-any-troubles-container {
+    font-size: 45px;
+  }
+  .we-are-a-container {
+    font-size: 15px;
+  }
+  .rectangle-div1 {
+    height: 400vh !important;
+  }
+  .tier-1 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-2 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-3 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .tier-4 {
+    left: 100px !important;
+    font-size: 40px;
+  }
+  .parent-tier::after {
+    left: 200%;
+    height: 280vh;
+  }
+  .vector-tier1 {
+    position: relative;
+    left: 400px;
+    top: 90px;
+    height: 70%;
+  }
+  .vector-tier2 {
+    position: relative;
+    left: 400px;
+    top: 380px;
+    height: 70%;
+  }
+  .vector-tier3 {
+    position: relative;
+    left: 400px;
+    top: 680px;
+    height: 70%;
+  }
+  .vector-tier4 {
+    position: relative;
+    left: 400px;
+    height: 70%;
+    top: 950px;
+  }
+  .heading1 {
+    position: relative;
+    left: 420px !important;
+    font-size: 16.5px;
+    top: 50px !important;
+  }
+  .paragraph1 {
+    position: relative;
+    left: -520px;
+    top: 150px;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading2 {
+    position: relative;
+    left: 420px !important;
+    top: 285px !important;
+    font-size: 16.5px;
+  }
+  .paragraph2 {
+    position: relative;
+    left: -520px !important;
+    top: 440px;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading3 {
+    position: relative;
+    left: 420px !important;
+    font-size: 16.5px;
+    top: 525px !important;
+  }
+  .paragraph3 {
+    position: relative;
+    left: -390px;
+    top: 740px !important;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
+  }
+  .heading4 {
+    position: relative;
+    left: 420px !important;
+    top: 730px !important;
+    font-size: 16.5px;
+  }
+  .paragraph4 {
+    position: relative;
+    left: -390px;
+    top: 1000px !important;
+    font-size: 13px;
+    width: 200%;
+    line-height: 180%;
   }
 }
 /*tab*/
-@media only screen and (min-width: 768px) and (max-width: 835px) {
+@media only screen and (min-width: 768px) and (max-width: 835px) and (orientation: portrait) {
   .have-any-troubles-container {
     font-size: 55px;
   }

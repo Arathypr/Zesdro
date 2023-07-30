@@ -1,0 +1,68 @@
+.honeycomb {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.honeycomb::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -60%);
+}
+.digital {
+  font-size: 10rem;
+  color: white;
+  font-family: betatron;
+  letter-spacing: 0.5rem;
+}
+.makers {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+
+.an-independent-creative-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(110%, 100%);
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  font-family: Orbitron;
+  color: #fff;
+  line-height: normal;
+  text-align: left;
+}
+.dotcomb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(1200%, 1650%);
+}
+.scroll-div {
+  top: 50%;
+  left: 50%;
+  transform: translate(10%, 40%);
+}
+.scroll {
+  color: white;
+  padding-top: 25%;
+}
+/*tab*/
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  .digit {
+    font-size: 5rem !important;
+  }
+}

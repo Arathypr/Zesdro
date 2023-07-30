@@ -299,7 +299,7 @@
     height: 100vh;
   }
 }
-@media screen and (min-width: 412px) and (max-width: 415px) and (orientation: portrait) {
+@media screen and (min-width: 412px) and (max-width: 450px) and (orientation: portrait) {
   .we-lead-organizations-container {
     font-size: 23px;
   }
@@ -358,8 +358,422 @@
     height: 100vh;
   }
 }
+/*phone landscape*/
+@media screen and (min-width: 731px) and (max-width: 781px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -250px;
+    left: 320px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -210px;
+    left: 320px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 330px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 630px;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -220px;
+    left: 250px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -170px;
+    left: 270px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: -50px;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 280vh;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 750px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -250px;
+    left: 320px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -210px;
+    left: 320px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 330px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 630px;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -220px;
+    left: 250px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -170px;
+    left: 270px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: -50px;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 280vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 815px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -250px;
+    left: 320px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -210px;
+    left: 320px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 370px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 630px;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -220px;
+    left: 250px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -170px;
+    left: 270px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: -50px;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 280vh;
+  }
+}
+@media only screen and (min-width: 880px) and (max-width: 885px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 18px;
+    top: -250px;
+    left: 320px;
+  }
+  .gelie-shrsta {
+    font-size: 18px;
+    top: -120px !important;
+    left: 430px !important;
+  }
+  .projects {
+    font-size: 25px;
+    left: 370px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 600px !important;
+  }
+  .case-study-child {
+    font-size: 9px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -220px;
+    left: 250px;
+  }
+  .case-study-child1 {
+    font-size: 9px;
+    width: 10%;
+    top: -80px !important;
+    left: 380px !important;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 40px !important;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: 300px !important;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 400vh !important;
+  }
+}
+@media only screen and (min-width: 833px) and (max-width: 930px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 20px;
+    top: -280px;
+    left: 380px;
+  }
+  .gelie-shrsta {
+    font-size: 20px;
+    top: -170px;
+    left: 330px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 400px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 650px;
+  }
+  .case-study-child {
+    font-size: 11px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -240px;
+    left: 320px;
+  }
+  .case-study-child1 {
+    font-size: 11px;
+    width: 10%;
+    top: -120px;
+    left: 260px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 420px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: -00px;
+    height: 260px;
+    transform: rotate(27.88deg);
+    left: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 280vh;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 859px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 20px;
+    top: -240px;
+    left: 335px;
+  }
+  .gelie-shrsta {
+    font-size: 20px;
+    top: 80px;
+    left: 320px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 370px;
+    top: 200px;
+  }
+  .b {
+    font-size: 25px;
+    top: 630px;
+  }
+  .case-study-child {
+    font-size: 11px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -200px;
+    left: 270px;
+  }
+  .case-study-child1 {
+    font-size: 11px;
+    width: 10%;
+    top: 120px;
+    left: 270px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 23%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    overflow: hidden;
+    top: 300px;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: -250px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 280vh;
+  }
+}
+/*iphone Landscape*/
+@media screen and (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
+  .we-lead-organizations-container {
+    font-size: 45px;
+  }
+  .iza-apparels {
+    font-size: 20px;
+    top: -240px;
+    left: 220px;
+  }
+  .gelie-shrsta {
+    font-size: 20px;
+    top: -150px;
+    left: 230px;
+  }
+  .projects {
+    font-size: 25px;
+    left: 255px;
+    top: 220px !important;
+  }
+  .b {
+    font-size: 25px;
+    top: 500px;
+  }
+  .case-study-child {
+    font-size: 11px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    top: -200px;
+    left: 140px;
+  }
+  .case-study-child1 {
+    font-size: 11px;
+    width: 10%;
+    top: -110px;
+    left: 180px;
+  }
+  .imagebg1 {
+    position: relative;
+    top: -20px;
+    height: 380px;
+    left: 10.5%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .imagebg2 {
+    position: relative;
+    top: 0px;
+    height: 250px;
+    transform: rotate(27.88deg);
+    left: 100px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .rectangle-slider {
+    height: 420vh;
+  }
+}
 /*tab*/
-@media screen and (min-width: 768px) and (max-width: 835px) {
+@media screen and (min-width: 768px) and (max-width: 835px) and (orientation: portrait) {
   .we-lead-organizations-container {
     font-size: 55px;
   }
