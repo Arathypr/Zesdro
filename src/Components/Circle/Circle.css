@@ -183,3 +183,188 @@
   top: 55px;
   left: 40px;
 }
+/*phone*/
+/*phone landscape*/
+/*tab*//*
+/*@media screen and (min-width: 600px) and (max-width: 768px) and (orientation: portrait) {
+  .rectangle-circle {
+    height: 170vh;
+  }
+  .no-fuzz-no-container {
+    font-size: 55px;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button-col {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    bottom: -300%;
+    margin-right: -200px;
+    font-family: orbitron;
+  }
+  .button-col > .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /*bigcircle*/
+  .big-circle {
+    margin-top: 100px;
+    width: 600px;
+  }
+  .circle1 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 75%;
+    left: 52%;
+  }
+  .data1 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 30px;
+  }
+  .circle2 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 76%;
+    left: 29%;
+  }
+  .data2 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 30px;
+  }
+  .circle3 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 60%;
+    left: 12%;
+  }
+  .data3 {
+    position: relative;
+    color: #000;
+    font-family: "poppins";
+    top: 50px;
+    left: 40px;
+  }
+  .circle4 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 55%;
+    left: 40%;
+  }
+  .data4 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 25px;
+  }
+  .circle5 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 60%;
+    left: 70%;
+  }
+  .data5 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 40px;
+    left: 25px;
+  }
+  .circle6 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 58%;
+  }
+  .data6 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 50px;
+    left: 20px;
+  }
+  .circle7 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 23%;
+  }
+  .data7 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 40px;
+  }
+  .circle8 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 25%;
+    left: 41%;
+  }
+  .data8 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 35px;
+    left: 20px;
+  }
+  .circle9 {
+    aspect-ratio: 1;
+    width: 23%;
+    border: solid 2px white;
+    border-radius: 50%;
+    top: 40%;
+    left: 0%;
+  }
+  .data9 {
+    position: relative;
+    color: white;
+    font-family: "poppins";
+    top: 65px;
+    left: 20px;
+  }
+  .circle10 {
+    aspect-ratio: 1;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 20%;
+    left: 11%;
+  }
+  .data10 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: "poppins";
+    top: 55px;
+    left: 40px;
+  }
+}
+/*tab landscape*/

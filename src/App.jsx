@@ -15,7 +15,7 @@ function App() {
       <HoneyComb />
       <Logo />
       <Brand />
-      {/*<Whyus />*/}
+      <Whyus />
       <Tier />
       {/*<Circle />*/}
       <Slider />
