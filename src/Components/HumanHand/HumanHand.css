@@ -236,7 +236,7 @@
     position: relative;
     width: 60%;
     object-fit: cover;
-    left: 375px;
+    left: 370px !important;
     top: -100px;
   }
   .human-hand-icon1 {
@@ -261,7 +261,7 @@
     position: relative;
     width: 60%;
     object-fit: cover;
-    left: 334px;
+    left: 320px;
     top: -125px;
   }
   .human-hand-icon1 {
@@ -286,7 +286,7 @@
     position: relative;
     width: 60%;
     object-fit: cover;
-    left: 368px;
+    left: 365px;
     top: -100px;
   }
   .human-hand-icon1 {
@@ -357,7 +357,7 @@
     position: relative;
     width: 60%;
     object-fit: cover;
-    left: 300px;
+    left: 290px;
     top: -152px;
   }
   .human-hand-icon1 {
@@ -505,7 +505,7 @@
     position: relative;
     width: 60%;
     object-fit: cover;
-    left: 468px;
+    left: 462px;
     top: -85px;
   }
   .human-hand-icon1 {
@@ -556,5 +556,113 @@
   }
   .human-hand-icon1 {
     left: -220px;
+  }
+}
+/**/
+@media only screen and (min-width: 836px) and (max-width: 884px) and (orientation: portrait) {
+  .human-hand-icon {
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+    object-fit: cover;
+    left: 350px;
+    top: -85px;
+  }
+  .human-hand-icon1 {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    object-fit: cover;
+    left: -150px;
+    top: -330px;
+  }
+  .rectangle-div2 {
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1104px) and (orientation: landscape) {
+  .human-hand-icon {
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+    object-fit: cover;
+    left: 440px;
+    top: -85px;
+  }
+  .human-hand-icon1 {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    object-fit: cover;
+    left: -180px;
+    top: -390px;
+  }
+  .dots {
+    width: 33%;
+  }
+  .rectangle-div2 {
+    width: 100%;
+    height: 150vh;
+  }
+}
+/**/
+@media only screen and (min-width: 1000px) and (max-width: 1115px) and (orientation: portrait) {
+  .human-hand-icon {
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+    object-fit: cover;
+    left: 410px;
+    top: -85px;
+  }
+  .human-hand-icon1 {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    object-fit: cover;
+    left: -170px;
+    top: -360px;
+  }
+  .dots {
+    width: 33%;
+  }
+  .rectangle-div2 {
+    width: 100%;
+    height: 150vh;
+  }
+}
+@media only screen and (min-width: 1105px) and (max-width: 1115px) and (orientation: landscape) {
+  .human-hand-icon {
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+    object-fit: cover;
+    left: 450px;
+    top: -85px;
+  }
+  .human-hand-icon1 {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    object-fit: cover;
+    left: -180px;
+    top: -380px;
+  }
+  .dots {
+    width: 33%;
+  }
+  .rectangle-div2 {
+    width: 100%;
+    height: 150vh;
+  }
+}
+@media only screen and (min-width: 1508px) and(max-width:1528) {
+  .human-hand-icon {
+    left: 450px;
+    position: relative;
+    width: 60%;
+    object-fit: cover;
+    top: -85px;
   }
 }

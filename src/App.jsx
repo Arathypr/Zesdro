@@ -17,7 +17,7 @@ function App() {
       <Brand />
       <Whyus />
       <Tier />
-      {/*<Circle />*/}
+      <Circle />
       <Slider />
       <HumanHand />
       <Footer />

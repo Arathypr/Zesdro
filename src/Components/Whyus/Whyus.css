@@ -522,3 +522,43 @@
     margin-top: -310px;
   }
 }
+/**/
+@media only screen and (min-width: 836px) and (max-width: 884px) and (orientation: portrait) {
+  .marquee-w {
+    position: relative;
+    display: block;
+    width: 100%px;
+    height: 140px;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+  .rectangle-us {
+    height: 90vh;
+  }
+  .marquee span {
+    font-size: 10rem;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1104px) and (orientation: landscape) {
+  .marquee-w {
+    position: relative;
+    display: block;
+    width: 100%px;
+    height: 140px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+  .rectangle-us {
+    height: 80vh;
+  }
+  .marquee span {
+    font-size: 10rem;
+  }
+  .bordercircle {
+    margin-top: -310px;
+  }
+}

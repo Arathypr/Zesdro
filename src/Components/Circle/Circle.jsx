@@ -9,7 +9,7 @@ function Circle() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col-md-6">
             <div className="big-circle">
               <div className="circle1 position-absolute">
                 <p className="data1">
@@ -84,48 +84,50 @@ function Circle() {
             </div>
           </div>
 
-          <div className="col button-col">
-            <div className="button-container">
-              <div className="d-flex flex-column  justify-content-end align-items-end btn-lg main-button col">
-                <div>
-                  <button
-                    type="button"
-                    class="btn btn-outline-light mb-5 mt-5 custom-btn"
-                  >
-                    HEALTHCARE
-                  </button>
-                </div>
-                <div>
-                  <button
-                    type="button"
-                    class="btn btn-outline-light mb-5 custom-btn"
-                  >
-                    EGINEERING
-                  </button>
-                </div>
-                <div>
-                  <button
-                    type="button"
-                    class="btn btn-outline-light mb-5 custom-btn"
-                  >
-                    E-COMMERCE
-                  </button>
-                </div>
-                <div>
-                  <button
-                    type="button"
-                    class="btn btn-outline-light mb-5 custom-btn"
-                  >
-                    TRAVEL & HOSPITALITY
-                  </button>
-                </div>
-                <div>
-                  <button
-                    type="button"
-                    class="btn btn-outline-light mb-5 custom-btn"
-                  >
-                    DIGITAL MARKETING
-                  </button>
+          <div className="col-md-6">
+            <div className="button-col">
+              <div className="button-container">
+                <div className="d-flex flex-wrap  justify-content-end align-items-end  main-button col">
+                  <div>
+                    <button
+                      type="button"
+                      class="btn btn-outline-light mb-5 mt-5 custom-btn"
+                    >
+                      HEALTHCARE
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      class="btn btn-outline-light mb-5 custom-btn"
+                    >
+                      EGINEERING
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      class="btn btn-outline-light mb-5 custom-btn"
+                    >
+                      E-COMMERCE
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      class="btn btn-outline-light mb-5 custom-btn"
+                    >
+                      TRAVEL & HOSPITALITY
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      class="btn btn-outline-light mb-5 custom-btn"
+                    >
+                      DIGITAL MARKETING
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
