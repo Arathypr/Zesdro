@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Betatron";
+  src: url("/public/font/BETATRON-REGULAR.OTF") format("truetype");
+}
 .rectangle-div1 {
   position: relative;
   background: linear-gradient(112.72deg, #2e335a, #1c1b33);

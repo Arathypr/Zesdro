@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Betatron";
+  src: url("/public/font/BETATRON-REGULAR.OTF") format("truetype");
+}
 .honeycomb {
   position: relative;
   width: 100%;

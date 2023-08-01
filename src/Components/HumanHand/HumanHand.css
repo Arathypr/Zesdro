@@ -657,9 +657,18 @@
     height: 150vh;
   }
 }
-@media only screen and (min-width: 1480px) and(max-width:1528) {
+@media only screen and (min-width: 1500px) and(max-width:1528) {
   .human-hand-icon {
     left: 500px;
+    position: relative;
+    width: 60%;
+    object-fit: cover;
+    top: -85px;
+  }
+}
+@media only screen and (min-width: 1385px) and(max-width: 1500px) {
+  .human-hand-icon {
+    left: 40px !important;
     position: relative;
     width: 60%;
     object-fit: cover;
