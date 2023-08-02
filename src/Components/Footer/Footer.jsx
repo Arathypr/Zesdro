@@ -8,7 +8,7 @@ import React from "react";
 function Footer() {
   const textToAnimate =
     "Feel free to reach out if you want to collaborate with us, or simply have a chat.";
-  const interKeyStrokeDurationInMs = 100;
+  const interKeyStrokeDurationInMs = 50;
   const animatedText = useTypingEffect(
     textToAnimate,
     interKeyStrokeDurationInMs

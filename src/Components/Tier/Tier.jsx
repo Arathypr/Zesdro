@@ -6,7 +6,7 @@ import React from "react";
 function Tier() {
   const textToAnimate =
     " We are a team of qualified professionals specializing in different areas of digital services. We work\nclosely with our clients to offer tailored solutions based on their specific needs, using the latest\ntechnologies and tools to deliver quality services that help clients achieve their business goals.";
-  const interKeyStrokeDurationInMs = 100;
+  const interKeyStrokeDurationInMs = 50;
   const animatedText = useTypingEffect(
     textToAnimate,
     interKeyStrokeDurationInMs

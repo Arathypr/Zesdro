@@ -10,7 +10,7 @@ import React from "react";
 function Brand() {
   const textToAnimate =
     "This is the right place if you are in search for the best womenoutfits. Let’s redefine your styling \n system with our huge store of trendy particulars. You can take onlineat us from the comfort of \n your home and get your favourites delivered right to your doorstep.";
-  const interKeyStrokeDurationInMs = 100;
+  const interKeyStrokeDurationInMs = 50;
   const animatedText = useTypingEffect(
     textToAnimate,
     interKeyStrokeDurationInMs

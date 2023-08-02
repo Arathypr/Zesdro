@@ -6,7 +6,7 @@ import React from "react";
 function Logo() {
   const textToAnimate =
     "A visionary independent digital product studio working at the intersection \n of strategy, design, and technology. We lead organizations into their digital \n future.";
-  const interKeyStrokeDurationInMs = 100;
+  const interKeyStrokeDurationInMs = 50;
   const animatedText = useTypingEffect(
     textToAnimate,
     interKeyStrokeDurationInMs

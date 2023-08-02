@@ -259,13 +259,16 @@
   .rectangle-div {
     height: 200vh !important;
   }
+  .pie1 {
+    margin-left: -25%;
+  }
   .we-focus-on-container {
     position: absolute;
     font-size: 12px !important;
     letter-spacing: 0.02em;
     line-height: 30px !important;
     left: 55px !important;
-    top: -620px !important;
+    top: -680px !important;
     text-align: left;
     display: inline-block;
     width: 250px !important;
@@ -301,7 +304,7 @@
     width: 100%;
     height: 160px !important;
     left: 40px !important;
-    bottom: 640px !important;
+    bottom: 700px !important;
   }
   .vector-box1 {
     position: relative;
