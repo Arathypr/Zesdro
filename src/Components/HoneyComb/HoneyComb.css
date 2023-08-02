@@ -110,15 +110,15 @@
     top: 60.5%;
   }
   .digital {
-    font-size: 5rem !important;
+    font-size: 4rem !important;
     margin-left: 60%;
   }
   .an-independent-creative-container {
     position: absolute;
-    top: 65%;
-    left: -50px;
+    top: 66%;
+    left: -45px;
     transform: translate(110%, 100%);
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 0.03em;
     font-family: Orbitron;
     color: #fff;
@@ -126,7 +126,7 @@
     text-align: left;
   }
 }
-@media screen and (min-width: 400px) and (max-width: 500px) and (orientation: portrait) {
+@media screen and (min-width: 400px) and (max-width: 499px) and (orientation: portrait) {
   .digital {
     font-size: 5rem !important;
     margin-left: 60%;
@@ -174,6 +174,10 @@
     left: 15%;
     transform: translate(1200%, 1650%);
   }
+  .rectangle_comb {
+    height: 100vh;
+    background-color: aqua;
+  }
 }
 @media only screen and (min-width: 731px) and (max-width: 811px) and (orientation: landscape) {
   .digital {
@@ -194,8 +198,8 @@
   }
   .dotcomb {
     position: absolute;
-    top: 26.5%;
-    left: 35%;
+    top: 28%;
+    left: 32%;
     transform: translate(1200%, 1650%);
   }
 }
@@ -231,7 +235,7 @@
   .an-independent-creative-container {
     position: absolute;
     top: 42%;
-    left: 55%;
+    left: 50%;
     transform: translate(110%, 100%);
     font-size: 12px;
     letter-spacing: 0.03em;
@@ -243,7 +247,7 @@
   .dotcomb {
     position: absolute;
     top: 32%;
-    left: 40%;
+    left: 35%;
     transform: translate(1200%, 1650%);
   }
 }
@@ -441,5 +445,54 @@
     top: 60%;
     left: 35%;
     transform: translate(1200%, 1650%);
+  }
+}
+/*desktop*/
+
+@media screen and (min-width: 500px) and (max-width: 600px) and (orientation: portrait) {
+  .digital {
+    font-size: 5rem !important;
+    margin-left: 30%; /* Adjust this value */
+  }
+  .an-independent-creative-container {
+    position: absolute;
+    top: 75%;
+    left: 50%; /* Adjust this value */
+    transform: translate(10%, 10%); /* Adjust this value */
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+  }
+  .dotcomb {
+    position: absolute;
+    top: 77%;
+    left: 45%; /* Adjust this value */
+    transform: translate(0%, 0%); /* Adjust this value */
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 750px) and (orientation: portrait) {
+  .digital {
+    font-size: 6rem !important;
+    margin-left: 50%;
+  }
+  .an-independent-creative-container {
+    position: absolute;
+    top: 64%;
+    left: 30%;
+    transform: translate(110%, 100%);
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+  }
+  .dotcomb {
+    left: 10%;
+    top: 59%;
   }
 }

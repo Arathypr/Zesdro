@@ -1,7 +1,16 @@
 import "./Tier.css";
 import Union from "../../assets/Union.png";
+import { useTypingEffect } from "../Typing/Typing";
+import React from "react";
+
 function Tier() {
-  const child = { width: `80em`, height: `50%` };
+  const textToAnimate =
+    " We are a team of qualified professionals specializing in different areas of digital services. We work\nclosely with our clients to offer tailored solutions based on their specific needs, using the latest\ntechnologies and tools to deliver quality services that help clients achieve their business goals.";
+  const interKeyStrokeDurationInMs = 100;
+  const animatedText = useTypingEffect(
+    textToAnimate,
+    interKeyStrokeDurationInMs
+  );
   return (
     <div className="rectangle-div1">
       <div className="have-any-troubles-container">
@@ -9,20 +18,7 @@ function Tier() {
         <p className="our-hands-are">OUR HANDS ARE OPEN TO YOU</p>
       </div>
       <div className="we-are-a-container">
-        <p className="we-are-a">
-          We are a team of qualified professionals specializing in different
-          areas of digital services.
-        </p>
-        <p className="we-are-a">
-          {" "}
-          We work closely with our clients to offer tailored solutions based on
-          their specific needs, using the latest
-        </p>
-        <p className="we-are-a">
-          {" "}
-          technologies and tools to deliver quality services that help clients
-          achieve their business goals.
-        </p>
+        <p className="we-are-a">{animatedText}</p>
       </div>
       <div className="parent-tier position-absolute">
         <div className="timeline">

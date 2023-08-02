@@ -337,7 +337,7 @@
     height: 220vh;
   }
 }
-@media only screen and (max-width: 393px) and (orientation: portrait) {
+@media only screen and (min-width: 351px) and (max-width: 393px) and (orientation: portrait) {
   .have-any-troubles-container {
     font-size: 23px;
   }
@@ -345,7 +345,7 @@
     font-size: 13px;
   }
   .rectangle-div1 {
-    height: 240vh;
+    height: 250vh;
   }
   .tier-1 {
     font-size: 55px;
@@ -1129,7 +1129,7 @@
     line-height: 150%;
   }
   .rectangle-div1 {
-    height: 530vh !important;
+    height: 500vh !important;
   }
   .tier-1 {
     left: 30px !important;
@@ -1453,7 +1453,7 @@
     line-height: 180%;
   }
 }
-@media only screen and (min-width: 880px) and (max-width: 930px) and (orientation: landscape) {
+@media only screen and (min-width: 830px) and (max-width: 930px) and (orientation: landscape) {
   .have-any-troubles-container {
     font-size: 45px;
   }
