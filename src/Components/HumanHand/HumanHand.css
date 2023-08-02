@@ -49,13 +49,31 @@
     height: 80vh;
   }
 }
-
-@media only screen and (min-width: 375px) and (max-width: 393px) and (orientation: portrait) {
+@media screen and (min-width: 370px) and (max-width: 376px) and (orientation: portrait) {
   .human-hand-icon {
     position: relative;
     width: 72%;
     object-fit: cover;
-    left: 142px !important;
+    left: 150px !important;
+    top: 10px !important;
+  }
+
+  .human-hand-icon1 {
+    position: relative;
+    overflow: hidden;
+    width: 72%;
+    height: 800px;
+    object-fit: cover;
+    left: -60px !important;
+    top: -100px !important;
+  }
+}
+@media only screen and (min-width: 377px) and (max-width: 393px) and (orientation: portrait) {
+  .human-hand-icon {
+    position: relative;
+    width: 72%;
+    object-fit: cover;
+    left: 155px !important;
     top: 10px !important;
   }
 
