@@ -100,7 +100,7 @@
   .dotcomb {
     position: absolute;
     top: 60%;
-    left: -10px;
+    left: -50%;
     transform: translate(1200%, 1650%);
   }
 }
@@ -181,15 +181,18 @@
 }
 @media only screen and (min-width: 731px) and (max-width: 811px) and (orientation: landscape) {
   .digital {
-    font-size: 5rem !important;
-    margin-left: -250px;
+    font-size: 5.5rem !important;
+    margin-left: -200px;
+  }
+  .honeycomb {
+    height: 125vh;
   }
   .an-independent-creative-container {
     position: absolute;
-    top: 42%;
-    left: 55%;
+    top: 68%;
+    left: 45%;
     transform: translate(110%, 100%);
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.03em;
     font-family: Orbitron;
     color: #fff;
@@ -198,8 +201,8 @@
   }
   .dotcomb {
     position: absolute;
-    top: 28%;
-    left: 32%;
+    top: 58%;
+    left: 28%;
     transform: translate(1200%, 1650%);
   }
 }
@@ -251,14 +254,17 @@
     transform: translate(1200%, 1650%);
   }
 }
-@media screen and (min-width: 700px) and (max-width: 730px) and (orientation: landscape) {
+@media screen and (min-width: 700px) and (max-width: 750px) and (orientation: landscape) {
   .digital {
-    font-size: 5.5rem !important;
+    font-size: 6rem !important;
     margin-left: 10%;
+  }
+  .honeycomb {
+    height: 120vh;
   }
   .an-independent-creative-container {
     position: absolute;
-    top: 48%;
+    top: 63%;
     left: 42%;
     transform: translate(110%, 100%);
     font-size: 12px;
@@ -270,8 +276,8 @@
   }
   .dotcomb {
     position: absolute;
-    top: 38.5%;
-    left: 25%;
+    top: 58%;
+    left: 23%;
     transform: translate(1200%, 1650%);
   }
 }
@@ -349,7 +355,7 @@
     transform: translate(1200%, 1650%);
   }
 }
-@media screen and (min-width: 1180px) and (max-width: 1280px) and (orientation: landscape) {
+@media screen and (min-width: 1115px) and (max-width: 1295px) and (orientation: landscape) {
   .digital {
     font-size: 10rem !important;
     margin-left: 10%;
@@ -449,10 +455,10 @@
 }
 /*desktop*/
 
-@media screen and (min-width: 500px) and (max-width: 600px) and (orientation: portrait) {
+@media screen and (min-width: 500px) and (max-width: 700px) and (orientation: portrait) {
   .digital {
     font-size: 5rem !important;
-    margin-left: 30%; /* Adjust this value */
+    margin-left: 30%;
   }
   .an-independent-creative-container {
     position: absolute;
@@ -473,17 +479,16 @@
     transform: translate(0%, 0%); /* Adjust this value */
   }
 }
-
-@media screen and (min-width: 601px) and (max-width: 750px) and (orientation: portrait) {
+@media screen and (min-width: 692px) and (max-width: 700px) and (orientation: landscape) {
   .digital {
-    font-size: 6rem !important;
-    margin-left: 50%;
+    font-size: 5rem !important;
+    margin-left: 20%;
   }
   .an-independent-creative-container {
     position: absolute;
-    top: 64%;
-    left: 30%;
-    transform: translate(110%, 100%);
+    top: 75%;
+    left: 60%;
+    transform: translate(10%, 10%);
     font-size: 12px;
     letter-spacing: 0.03em;
     font-family: Orbitron;
@@ -492,7 +497,53 @@
     text-align: left;
   }
   .dotcomb {
-    left: 10%;
-    top: 59%;
+    position: absolute;
+    top: 77%;
+    left: 56%;
+    transform: translate(0%, 0%);
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 1024px) and (orientation: portrait) {
+  .digital {
+    font-size: 7rem !important;
+    margin-left: 10%;
+  }
+  .an-independent-creative-container {
+    position: absolute;
+    top: 64%;
+    left: 45%;
+    transform: translate(110%, 100%);
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+  }
+  .dotcomb {
+    left: 37%;
+    top: 61%;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 730px) and (orientation: portrait) {
+  .digital {
+    font-size: 8rem !important;
+    margin-left: 10%;
+  }
+  .an-independent-creative-container {
+    position: absolute;
+    top: 64%;
+    left: 45%;
+    transform: translate(110%, 100%);
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    font-family: Orbitron;
+    color: #fff;
+    line-height: normal;
+    text-align: left;
+  }
+  .dotcomb {
+    left: 37%;
+    top: 61%;
   }
 }
